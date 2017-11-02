@@ -1,0 +1,170 @@
+{
+  "T1": [
+    {
+      "name": "Kasper Lund",
+      "title": "Flutter: The best way to build for mobile?",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fkasper_lund.JPG?alt=media&token=4fb6e70f-aefc-4fbe-bda4-a8da7e6a7d8d"
+    },
+    {
+      "name": "Tomáš Hubálek",
+      "title": "Jak nadesignovat aplikaci, aby se dobře prodávala na Play Store",
+      "startTime": "11:00",
+      "endTime": "11:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Ftomas_hubalek.jpg?alt=media&token=8e44eb1b-44eb-4b32-a222-ea5227292f4c"
+    },
+    {
+      "name": "Sofia Huts",
+      "title": "Go beyond the web development with Firebase Cloud Functions",
+      "startTime": "12:00",
+      "endTime": "12:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fsofia_huts.jpg?alt=media&token=eae122d6-18f1-49f5-a67a-163c2fa8aa3b"
+    },
+    {
+      "name": "Hugo Visser",
+      "title": "Room: the blessed Object Mapper",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fhugo_visser.jpg?alt=media&token=3e8b7c88-0365-49bc-9967-11006f46c003"
+    },
+    {
+      "name": "Jindrich Sarson",
+      "title": "Úspěšný vývoj multiplaformní aplikace pomocí J2ObjC",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fjindrich_sarson.jpg?alt=media&token=019171e8-0e63-4f59-b1a4-d9b9eb62c950"
+    },
+    {
+      "name": "Simon MacDonald",
+      "title": "Cross Platform Progressive Web Apps",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fsimon_macdonald.jpg?alt=media&token=60435f81-dacf-451c-bfa9-97766c9740c7"
+    }
+  ],
+  "E1": [
+    {
+      "name": "Rebecca Franks",
+      "title": "Building a Connected Product using Android Things",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Frebecca_franks.png?alt=media&token=2f54a684-168e-4468-a962-bd1db36bc7b8"
+    },
+    {
+      "name": "Vitaliy Zasadnyy",
+      "title": "How not to fuckup with building SDK and make clients happy",
+      "startTime": "11:00",
+      "endTime": "11:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2FVitaliy_Zasadnyy.jpg?alt=media&token=acdffe5c-ca77-414b-ba16-571dc0d218ab"
+    },
+    {
+      "name": "Alexey Buzdin",
+      "title": "Writing A Plugin for Android Studio",
+      "startTime": "12:00",
+      "endTime": "12:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Falexey_buzdin.jpg?alt=media&token=9df788a8-fc3d-47d5-81bf-540283be60d6"
+    },
+    {
+      "name": "Jana Moudrá",
+      "title": "How AngularDart & Firebase did an App together",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fjana_moudra.png?alt=media&token=0d9b298a-1329-4f3f-9de6-51784782e847"
+    },
+    {
+      "name": "Petr Nálevka & Jan Marek",
+      "title": "Sonar or the Tricoder (how we created a new smartphone sensor)",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fpetr-nalevka.jpg?alt=media&token=eb7e3f80-6471-4a71-93f9-c484a3cf84f6"
+    },
+    {
+      "name": "Tomáš Zvěřina",
+      "title": "Dart pro Javisty",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Ftomas_zverina.jpeg?alt=media&token=ec27f741-120a-47cc-bf50-0367adde046e"
+    },
+    {
+      "name": "Tanay Pant",
+      "title": "Web Based Virtual Reality",
+      "startTime": "17:20",
+      "endTime": "17:45",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2FTanay%20Pant.jpg?alt=media&token=bb76a524-cd65-4de8-ac01-ab6e3bdbd55f"
+    },
+    {
+      "name": "Vaclav Souhrada",
+      "title": "Kotlin for Android",
+      "startTime": "17:45",
+      "endTime": "18:10",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2FTanay%20Pant.jpg?alt=media&token=bb76a524-cd65-4de8-ac01-ab6e3bdbd55f"
+    },
+    {
+      "name": "",
+      "title": "Lightning talks",
+      "startTime": "17:20",
+      "endTime": "18:10",
+      "photoUrl": ""
+    }
+  ],
+  "E2": [
+    {
+      "name": "Radek Simko",
+      "title": "Infrastructure as Code in Google Cloud",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fradek_simko.jpg?alt=media&token=6c95c777-5559-45e2-bbc7-26c3f366f413"
+    },
+    {
+      "name": "Juarez Filho",
+      "title": "Let Firebase help you to build better Front-end apps",
+      "startTime": "11:00",
+      "endTime": "11:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fjuarez_filho.jpg?alt=media&token=26068d9d-e026-464b-bfce-44bdd4117e49"
+    },
+    {
+      "name": "Vladislav Iliushin",
+      "title": "Dark side of IoT",
+      "startTime": "12:00",
+      "endTime": "12:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2FVladislav_Iliushin.jpg?alt=media&token=76510349-13e4-4630-86ad-9f7505432ff9"
+    },
+    {
+      "name": "Ipsha Bhidonia",
+      "title": "Service workers and their role in PWAs",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2FIpsha_Bhidonia.jpg?alt=media&token=4fe9c4b9-050c-4f2b-8053-b3d41b6edee2"
+    },
+    {
+      "name": "Daniel Stenberg",
+      "title": "HTTP/2",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fdaniel_stenberg.jpg?alt=media&token=25e5e4e1-e021-4d6b-9a58-1823640a23c0"
+    },
+    {
+      "name": "Tomáš Jukin",
+      "title": "When a Robot is smart enough?",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Ftomas_jukin.png?alt=media&token=4fdfd52a-7a09-4f6f-a9e8-00c1e6ec1798"
+    },
+    {
+      "name": "Jaroslav Machaň",
+      "title": "Morfina - The World Unique Homomorphic Encrypted Open API",
+      "startTime": "17:20",
+      "endTime": "17:45",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fjaroslav_machan.jpg?alt=media&token=38f05448-ec8b-46fb-a09d-2d5b5bc66b59"
+    },
+    {
+      "name": "Nik Page",
+      "title": "Google Design Sprint: The Next Step in Innovation Management",
+      "track": "E2",
+      "startTime": "17:45",
+      "endTime": "18:10",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2FNikPage%20(2).jpg?alt=media&token=3272d519-0a56-46c5-acfb-9cd1bfba4e4e"
+    }
+  ]
+}
