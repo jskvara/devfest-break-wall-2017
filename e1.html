@@ -23,55 +23,72 @@
                     src="http://devfest.pages.eman.cz/devfest-js/"></iframe>
         </section>
         <script type="text/javascript">
+            function getParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, "\\$&");
+                var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, " "));
+            }
+
             var roomData = [
                 {
-                    "name": "Kasper Lund",
-                    "title": "Flutter: The best way to build for mobile?",
+                    "name": "Rebecca Franks",
+                    "title": "Building a Connected Product using Android Things",
                     "startTime": "10:00",
                     "endTime": "10:50",
-                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fkasper_lund.JPG?alt=media&token=4fb6e70f-aefc-4fbe-bda4-a8da7e6a7d8d"
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Frebecca_franks.png?alt=media&token=2f54a684-168e-4468-a962-bd1db36bc7b8"
                 },
                 {
-                    "name": "Tomáš Hubálek",
-                    "title": "Jak nadesignovat aplikaci, aby se dobře prodávala na Play Store",
+                    "name": "Vitaliy Zasadnyy",
+                    "title": "How not to fuckup with building SDK and make clients happy",
                     "startTime": "11:00",
                     "endTime": "11:50",
-                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Ftomas_hubalek.jpg?alt=media&token=8e44eb1b-44eb-4b32-a222-ea5227292f4c"
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2FVitaliy_Zasadnyy.jpg?alt=media&token=acdffe5c-ca77-414b-ba16-571dc0d218ab"
                 },
                 {
-                    "name": "Sofia Huts",
-                    "title": "Go beyond the web development with Firebase Cloud Functions",
+                    "name": "Alexey Buzdin",
+                    "title": "Writing A Plugin for Android Studio",
                     "startTime": "12:00",
                     "endTime": "12:50",
-                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fsofia_huts.jpg?alt=media&token=eae122d6-18f1-49f5-a67a-163c2fa8aa3b"
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Falexey_buzdin.jpg?alt=media&token=9df788a8-fc3d-47d5-81bf-540283be60d6"
                 },
                 {
-                    "name": "Hugo Visser",
-                    "title": "Room: the blessed Object Mapper",
+                    "name": "Jana Moudrá",
+                    "title": "How AngularDart & Firebase did an App together",
                     "startTime": "14:00",
                     "endTime": "14:50",
-                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fhugo_visser.jpg?alt=media&token=3e8b7c88-0365-49bc-9967-11006f46c003"
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fjana_moudra.png?alt=media&token=0d9b298a-1329-4f3f-9de6-51784782e847"
                 },
                 {
-                    "name": "Jindrich Sarson",
-                    "title": "Úspěšný vývoj multiplaformní aplikace pomocí J2ObjC",
+                    "name": "Petr Nálevka & Jan Marek",
+                    "title": "Sonar or the Tricoder (how we created a new smartphone sensor)",
                     "startTime": "15:00",
                     "endTime": "15:50",
-                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fjindrich_sarson.jpg?alt=media&token=019171e8-0e63-4f59-b1a4-d9b9eb62c950"
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fpetr-nalevka.jpg?alt=media&token=eb7e3f80-6471-4a71-93f9-c484a3cf84f6"
                 },
                 {
-                    "name": "Simon MacDonald",
-                    "title": "Cross Platform Progressive Web Apps",
+                    "name": "Tomáš Zvěřina",
+                    "title": "Dart pro Javisty",
                     "startTime": "16:00",
                     "endTime": "16:50",
-                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Fsimon_macdonald.jpg?alt=media&token=60435f81-dacf-451c-bfa9-97766c9740c7"
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2Ftomas_zverina.jpeg?alt=media&token=ec27f741-120a-47cc-bf50-0367adde046e"
                 },
                 {
-                    "name": "",
-                    "title": "Lightning talks",
+                    "name": "Tanay Pant",
+                    "title": "Web Based Virtual Reality",
                     "startTime": "17:20",
+                    "endTime": "17:45",
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2FTanay%20Pant.jpg?alt=media&token=bb76a524-cd65-4de8-ac01-ab6e3bdbd55f"
+                },
+                {
+                    "name": "Vaclav Souhrada",
+                    "title": "Kotlin for Android",
+                    "startTime": "17:45",
                     "endTime": "18:10",
-                    "photoUrl": ""
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-2017-d44d9.appspot.com/o/images%2Fspeakers%2FTanay%20Pant.jpg?alt=media&token=bb76a524-cd65-4de8-ac01-ab6e3bdbd55f"
                 }
             ];
             $(document).ready(function () {
@@ -102,9 +119,9 @@
                 $nextPresentationTitle.text(currentPresentation.title);
             });
         </script>
-        <section style="display: none;">
+        <section style="display: none;" class="next-presentation">
             <div style="background-color: #673ab7; color: #ffffff; padding: 20px; margin-bottom: 50px;">
-                <i>Next presentation: <span class="next-presentation-start"></span> - <span class="next-presentation-end"></span></i>
+                <i>Next presentation: <span class="next-presentation-start">10:00</span> - <span class="next-presentation-end">10:50</span></i>
             </div>
             <img style="float: left; border-radius: 50%; width: 30%; padding-right: 20px"
                 class="next-presentation-photo"
